@@ -1,0 +1,70 @@
+{
+  "extends": [
+    "airbnb-base",
+    "next/core-web-vitals",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": "error"
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.ts",
+        "**/*.tsx"
+      ],
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      },
+      "extends": [
+        "airbnb-typescript",
+        "next/core-web-vitals",
+        "plugin:@next/next/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended",
+        "plugin:tailwindcss/recommended"
+      ],
+      "plugins": [
+        "@typescript-eslint",
+        "prettier",
+        "simple-import-sort",
+        "tailwindcss"
+      ],
+      "rules": {
+        "import/no-anonymous-default-export": "off",
+        "prettier/prettier": "error",
+        "simple-import-sort/imports": "error",
+        "simple-import-sort/exports": "error"
+      }
+    },
+    {
+      "files": [
+        "**/*.spec.ts",
+        "**/*.spec.tsx"
+      ],
+      "extends": [
+        "plugin:jest/recommended",
+        "plugin:testing-library/react"
+      ],
+      "plugins": [
+        "jest",
+        "testing-library"
+      ]
+    },
+    {
+      "files": [
+        "**/*.e2e-spec.ts"
+      ],
+      "parserOptions": {
+        "project": "./test/tsconfig.json"
+      },
+      "extends": [
+        "plugin:cypress/recommended"
+      ],
+      "plugins": [
+        "cypress"
+      ]
+    }
+  ]
+}
