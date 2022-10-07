@@ -1,41 +1,29 @@
 <p align="center">
-    <a href="https://github.com/MrZalTy/open-source-template">
-    <img src="https://cdn.svgporn.com/logos/opensource.svg?response-content-disposition=attachment%3Bfilename%3Dopensource.svg" width="80" alt="Logo" /></a>
+    <a href="https://github.com/MrZalTy/nextjs-template">
+    <img src="https://cdn.svgporn.com/logos/nextjs-icon.svg?response-content-disposition=attachment%3Bfilename%3Dnextjs-icon.svg" width="80" alt="Logo" /></a>
 </p>
 
-<h1 align="center">Open-source Template</h1>
+<h1 align="center">Next.js Template</h1>
 
-<p align="center">A short project description</p>
+<p align="center">Quickly start a new Next.js project</p>
 
 ---
 
-Project description goes here as well as the goal trying to achieve.
-
-## 📕 How does it work ?
-
-Describe how the projects works.
+A template for your Next.js projects including Typescript, Eslint, Prettier, Jest, Cypress and Docker.
 
 ## ⏩ Getting Started
 
 ### ⚙️ Installation
 
-```shell
-# A shell command here
-```
-
-### 🏁 Quickstart
-
-Add some code example on how to use the project.
+Use the `Use this template` green button at the top of this repository to start a new project that uses this template.
 
 ## 💻 Technologies
 
-Add some icons on the technologies you used in the project
-
-<img src="https://skillicons.dev/icons?i=js,ts,cpp,python,go,rust" alt="technologies" />
+<img src="https://skillicons.dev/icons?i=nextjs,ts,tailwindcss,jest,docker" alt="technologies" />
 
 ## ✏️ License
 
-Open-source Template is distributed under the [MIT License](LICENSE)
+Next.js Template is distributed under the [MIT License](LICENSE)
 
 ## ✍️ Authors
 

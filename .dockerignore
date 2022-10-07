@@ -24,6 +24,26 @@ node_modules/
 # dotenv environment variables file
 .env
 .env.test
+.env.example
 
 # build output
 .next/
+
+# Lint
+.eslintignore
+.eslintrc.json
+.prettierrc.json
+
+# Tests
+test/
+test/cypress.config.ts
+jest.config.ts
+
+# Misc
+.github/
+.babelrc.json
+.dockerignore
+.gitignore
+Dockerfile
+LICENSE
+README.md
