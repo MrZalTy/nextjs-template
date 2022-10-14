@@ -41,4 +41,4 @@ Next.js Template is distributed under the [MIT License](LICENSE).
 
 ---
 
-> 🚀 Don't forget to put a ⭐️ on my repositories !
+> 🚀 Don't forget to put a ⭐️ on my repositories!
