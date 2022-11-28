@@ -33,7 +33,7 @@
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
     "@cypress/code-coverage": "^3.10.0",
-    "@next/eslint-plugin-next": "^13.0.2",
+    "@next/eslint-plugin-next": "^13.0.5",
     "@testing-library/cypress": "^8.0.3",
     "@testing-library/react": "^13.4.0",
     "@types/cypress__code-coverage": "^3.10.0",
